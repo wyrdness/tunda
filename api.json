@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/tunda",
     "maintainers": [
       {
@@ -16,72 +16,158 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "tunda",
     "name": "La Tunda",
-    "aliases": [],
+    "aliases": [
+      { "name": "Tunda", "language": "Spanish", "region": "Pacific coast of Colombia and Ecuador" },
+      { "name": "La Tunda", "language": "Spanish" },
+      { "name": "Entundado / Entundada", "language": "Spanish", "meaning": "a person bewitched or held under La Tunda's spell" },
+      { "name": "Entundamiento", "language": "Spanish", "meaning": "the deceptive trance La Tunda induces in her victims" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Unknown",
+    "subcategory": "Shapeshifting forest spirit",
     "tags": [
-      "folklore",
-      "mythology"
+      "shapeshifter",
+      "afro-colombian",
+      "pacific-coast",
+      "forest-dwelling",
+      "luring-spirit",
+      "child-abductor",
+      "south-america",
+      "folklore"
     ],
     "status": "documented",
     "description": {
-      "summary": "La Tunda is one of the most feared supernatural entities in the folklore of Colombia's Pacific coast, particularly among Afro-Colombian communities in the departments of Chocó, Valle del Cauca, Cauca, and Nariño.",
-      "full": "La Tunda is one of the most feared supernatural entities in the folklore of Colombia's Pacific coast, particularly among Afro-Colombian communities in the departments of Chocó, Valle del Cauca, Cauca, and Nariño. She is a malevolent female shapeshifter who preys primarily on children, though adults are not immune to her deceptions. Her name comes from \\\"tundir\\\" (to beat or thrash), reflecting either her violent nature or the punishment children receive for wandering into her domain. The entity's most distinctive physical characteristic is her wooden leg—specifically, one foot takes the form of a molinillo, a traditional wooden kitchen utensil used to froth hot chocolate. This peculiar detail connects her to domestic spaces while simultaneously marking her as fundamentally inhuman. La Tunda represents a perfect synthesis of Afro-Colombian and Indigenous cultural elements, embodying ancestral fears about the dangers of the rainforest and serving as a powerful cautionary tale about obedience and safety."
+      "summary": "A shapeshifting female forest entity from the Afro-Colombian and Afro-Ecuadorian Pacific coast who lures victims, especially children and disobedient men, into the forest by impersonating their loved ones.",
+      "full": "La Tunda is a malevolent shapeshifting spirit central to the folklore of the Pacific coastal region of Colombia and Ecuador, particularly among Afro-descendant communities of the Chocó, Valle del Cauca, Cauca, and Nariño departments and the Esmeraldas province. In her base form she is described as a humanoid female figure whose most distinctive trait is a wooden leg shaped like a molinillo, the traditional wooden whisk used to froth hot chocolate. She can assume the appearance of a victim's mother, lover, or other trusted figure to lure them deep into the forest, where she keeps them in a trance ('entundamiento') and feeds them shrimp or other foods to bind them to her. Some versions describe her draining the blood or vitality of male victims. She functions as a cautionary figure warning children away from the rainforest and reinforcing communal norms of obedience and respect for the bush."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "The name 'Tunda' is widely interpreted by folklorists as drawing on Bantu-language vocabulary brought to the Pacific coast by enslaved Africans, with possible reinforcement from the Spanish verb 'tundir' (to thrash, to beat).",
+      "meaning": "Commonly glossed as connected to the verb 'tundir' (to thrash) — interpreted either as the punishment La Tunda inflicts or as the punishment evoked for disobedient children.",
+      "first_use": "Earliest documentation appears in 20th-century Colombian and Ecuadorian folklore collections; the figure is older in oral tradition."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Shapeshifter",
+      "subtype": "Forest luring spirit",
+      "variant": "Afro-Pacific (Colombia / Ecuador)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "patasola", "name": "Patasola", "relationship": "similar", "description": "One-legged forest spirit of Andean Colombia who likewise lures men to their deaths" },
+      { "id": "sayona", "name": "La Sayona", "relationship": "similar", "description": "Venezuelan shapeshifting female spirit who punishes unfaithful men" },
+      { "id": "siguanaba", "name": "La Siguanaba", "relationship": "similar", "description": "Central American shapeshifter who lures men into rivers and ravines" },
+      { "id": "deer-woman", "name": "Deer Woman", "relationship": "similar", "description": "Indigenous North American shapeshifting figure who lures men in the forest" },
+      { "id": "llorona", "name": "La Llorona", "relationship": "related", "description": "Latin American weeping-woman folklore figure with overlapping cautionary functions" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["dark skin", "disheveled hair"],
+      "features": [
+        { "feature": "Molinillo foot", "description": "One foot or lower leg shaped like a molinillo (a Spanish/Latin American wooden chocolate whisk), which she conceals from her victims", "frequency": "always" },
+        { "feature": "Shapeshifting form", "description": "Adopts the appearance of a victim's mother, lover, or trusted figure to lure them into the forest", "frequency": "common" },
+        { "feature": "Disheveled appearance", "description": "When seen in her true form, described as an ugly woman with matted, greasy hair", "frequency": "common" },
+        { "feature": "Concealed deformity", "description": "Tries to keep her wooden leg hidden behind plants or skirts to maintain her deceptive form", "frequency": "common" }
+      ],
+      "morphology": "Humanoid female form with one prosthesis-like wooden lower limb shaped as a molinillo; capable of glamour-style shapeshifting that dissolves on close inspection."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shapeshifting", "description": "Adopts the form of a loved one — typically a mother to children, or a desirable woman to adult men", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Entundamiento (entrancement)", "description": "Induces a stuporous bewitched state in victims, who follow her into the forest and lose their will to leave", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Feeding spell", "description": "Feeds victims shrimp or other foods which bind them to her and prevent them from returning home", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Blood-drinking (in some variants)", "description": "Some versions describe her sucking the blood of male victims after revealing her true form", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "tropical rainforest",
+        "Pacific coastal jungle",
+        "river edges",
+        "mangrove",
+        "remote forest paths"
+      ],
+      "diet": "Folkloric: said to feed on shrimp and crustaceans, and (in some accounts) on the blood or life-force of male victims.",
+      "patterns": [
+        "Targets disobedient or wandering children, men who stray from the village, and unfaithful or drunken men",
+        "Lures victims by impersonating a familiar loved one",
+        "Keeps victims in the forest in a trance state",
+        "Can be repelled by ritual means including the use of strong-smelling plants, prayer, baptism, and the smoke of burned palm fronds"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "La Tunda is a regional Pacific-coast spirit of Colombia and Ecuador, especially associated with Afro-descendant communities living in dense tropical rainforest, riverine, and mangrove environments.",
+      "continents": ["South America"],
+      "countries": ["Colombia", "Ecuador"],
+      "regions": [
+        "Pacific coast of Colombia",
+        "Chocó",
+        "Valle del Cauca",
+        "Cauca",
+        "Nariño",
+        "Esmeraldas (Ecuador)"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Chocó department",
+        "location": {
+          "description": "Pacific coastal lowland and rainforest department of western Colombia",
+          "country": "Colombia",
+          "region": "Chocó"
+        },
+        "peak_period": "20th century to present",
+        "notes": "One of the principal centers of Afro-Colombian La Tunda tradition; figure is widely known across rural communities."
+      },
+      {
+        "name": "Esmeraldas province",
+        "location": {
+          "description": "Pacific coastal province of Ecuador with large Afro-Ecuadorian population",
+          "country": "Ecuador",
+          "region": "Esmeraldas"
+        },
+        "peak_period": "20th century to present",
+        "notes": "La Tunda is a core figure of Afro-Ecuadorian oral tradition and modern short-film adaptations."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-20th century",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Afro-Colombian and Afro-Ecuadorian oral tradition; earliest scholarly documentation in 20th-century folklore studies"
+      },
+      "peak_activity_periods": [
+        { "period": "20th century", "description": "Main period of folklorist documentation of La Tunda traditions in Colombia and Ecuador" },
+        { "period": "2000–present", "description": "Renewed interest through Afro-Pacific cultural revitalization and short-film adaptations" }
+      ],
+      "seasonal_patterns": "Stories typically warn against being alone in the forest at any time, but encounters are most often described at dusk or during long absences from the village."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "La Tunda is a syncretic figure rooted in Afro-descendant Pacific-coast culture, blending West and Central African spiritual traditions carried by enslaved Africans with Indigenous Pacific-coast forest beliefs and elements of colonial Spanish folklore.",
+      "earliest_accounts": "The figure is documented in 20th-century Colombian and Ecuadorian folklore collections; she is considerably older in oral tradition.",
+      "folklore_connections": "Belongs to a hemispheric set of female forest-luring spirits including La Patasola, La Sayona, La Siguanaba, La Llorona, and Deer Woman."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "Pre-20th century", "event": "Afro-Colombian and Afro-Ecuadorian communities of the Pacific coast develop and transmit La Tunda traditions orally", "significance": "Cultural baseline of the figure", "source": "Oral tradition" },
+      { "date": "20th century", "event": "Colombian and Ecuadorian folklorists begin systematically recording La Tunda stories", "significance": "Entry of La Tunda into formal ethnographic literature", "source": "Folklore collections (e.g. González Cortés 2001; Puertas Arias 2000)" },
+      { "date": "2023", "event": "Release of Colombian short film La Tunda dramatizing the legend", "significance": "Contemporary cultural revitalization of the figure", "source": "Colombian film distribution coverage" }
+    ],
+    "modern_era": "La Tunda remains an active part of Afro-Pacific folklore and is increasingly featured in literature, film, and cultural-heritage events as a marker of Afro-Colombian and Afro-Ecuadorian identity. She is no longer treated only as a children's bogeyman but also as a vehicle for discussing colonial violence, gendered fears, and ecological respect."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +178,111 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "tunda-evidence-folklore-corpus",
+        "type": "folklore corpus",
+        "name": "Afro-Colombian and Afro-Ecuadorian oral tradition",
+        "description": "Body of orally-transmitted stories about La Tunda collected by Colombian and Ecuadorian folklorists during the 20th and 21st centuries.",
+        "status": "unverified",
+        "analysis": "Treated as folklore/cultural artifact rather than testable claims; constitutes the principal documentary record of the figure.",
+        "source": "Colombian Wikipedia source list; folklore monographs"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Forest spirit / Afro-syncretic supernatural entity",
+        "description": "La Tunda is understood within Afro-Pacific cosmology as a real spirit of the forest with the power to bewitch and abduct.",
+        "proponents": ["Afro-Colombian and Afro-Ecuadorian oral tradition"],
+        "evidence_cited": ["Persistent communal belief", "Reported personal experiences of entundamiento"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cautionary folklore explanation",
+        "description": "La Tunda functions as a culturally encoded warning to children and adults not to wander into the rainforest, where real dangers (drowning, getting lost, animal attacks, armed-conflict actors) are common.",
+        "proponents": ["Folklorists studying Latin American cautionary tales"],
+        "evidence_cited": ["Structural similarity to other regional luring spirits", "Educational/social function within the community"]
+      },
+      {
+        "name": "Cultural-memory interpretation",
+        "description": "Some scholars interpret La Tunda as encoding the trauma of slavery, displacement, and gendered violence in Afro-descendant Pacific communities.",
+        "proponents": ["Afro-Latin American studies scholars"],
+        "evidence_cited": ["Bantu linguistic substrate in the name", "Ties between La Tunda and ideas of forced absence from the village"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Afro-Colombian Pacific oral tradition",
+        "Afro-Ecuadorian Esmeraldas oral tradition"
+      ],
+      "stories": [
+        "La Tunda lures a disobedient child into the forest by appearing as the child's mother",
+        "La Tunda traps a man with shrimp meals until rescuers find him",
+        "Communities perform rituals of protection — baptism, prayer, smoke from burned palm — to free the 'entundado'"
+      ],
+      "beliefs": "She is widely treated by Afro-Pacific communities as a real spirit whose powers are to be respected; encounters are recounted as personal or family experiences rather than fictions."
+    },
+    "indigenous": {
+      "cultures": ["Afro-Colombian Pacific communities", "Afro-Ecuadorian communities of Esmeraldas"],
+      "significance": "La Tunda is a key cultural figure in Afro-Pacific identity, expressing both real dangers of the rainforest and the long memory of slavery, family separation, and gendered fear.",
+      "sensitivity_note": "While La Tunda is often presented in popular media as a 'witch' or 'monster', her meaning in Afro-Pacific tradition is more complex; she is a community-internal figure, not merely a tourist attraction.",
+      "respect_guidelines": "Source from Afro-Colombian and Afro-Ecuadorian voices and scholarship; avoid reducing the figure to a horror trope; do not conflate her with figures from unrelated traditions."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Various Colombian and Ecuadorian short-story and folklore collections featuring La Tunda"
+      ],
+      "film_tv": [
+        "La Tunda (Colombian short film, 2023)"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Afro-Pacific cultural-heritage festivals",
+        "Educational materials in Colombian and Ecuadorian schools"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Folklorists of Colombia and Ecuador", "affiliation": "Various universities and cultural institutes", "contribution": "Documenting Afro-Pacific oral traditions including La Tunda", "period": "20th century–present" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Ongoing ethnographic and Afro-Latin American studies work documents La Tunda alongside related Pacific-coast spirits as part of Afro-descendant intangible cultural heritage."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wiki-tunda",
+      "type": "website",
+      "title": "Tunda",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tunda",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "wiki-colombian-folklore",
+      "type": "website",
+      "title": "Colombian folklore",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Colombian_folklore",
+      "accessed": "2026-05-07"
+    }
+  ]
 }
